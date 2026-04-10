@@ -3,7 +3,7 @@ name = "python-template"
 version = "0.1.0"
 description = "Python project template"
 requires-python = ">=3.13"
-dependencies = []
+dependencies = ["dotenv (>=0.9.9,<0.10.0)"]
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
