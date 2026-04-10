@@ -22,4 +22,4 @@ def get_settings():
     if not app_env:
         raise ValueError("環境変数 APP_ENV が設定されていません。")
 
-    return (app_env,)
+    return app_env
